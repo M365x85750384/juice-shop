@@ -2,6 +2,7 @@ name: Microsoft Security DevOps
 on:
   push:
     branches: none
+  workflow_dispatch:
 
 jobs:
   sample:
